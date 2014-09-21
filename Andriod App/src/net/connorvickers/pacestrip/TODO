@@ -1,0 +1,10 @@
+refresh rate to shared settings
+
+features to impliment
+continous task notification
+fix todo's in files
+setting tab
+solid tab
+startForeground(1, notification.build()); // api 16
+
+ardunio feedback

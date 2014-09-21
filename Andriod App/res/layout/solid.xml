@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".5"
+        android:orientation="vertical" >
+
+        <ToggleButton
+            android:id="@+id/BtnGreen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".25"
+            android:background="@color/Green"
+            android:textOff="@string/blank"
+            android:textOn="@string/Active" />
+
+        <ToggleButton
+            android:id="@+id/BtnBlue"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".25"
+            android:background="@color/Blue"
+            android:textOff="@string/blank"
+            android:textOn="@string/Active" />
+
+        <ToggleButton
+            android:id="@+id/BtnYellow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".25"
+            android:background="@color/Yellow"
+            android:textOff="@string/blank"
+            android:textOn="@string/Active" />
+
+        <ToggleButton
+            android:id="@+id/BtnWhite"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".25"
+            android:background="@color/White"
+            android:textOff="@string/blank"
+            android:textOn="@string/Active" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".5"
+        android:orientation="vertical" >
+
+        <ToggleButton
+            android:id="@+id/BtnRed"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".25"
+            android:background="@color/Red"
+            android:textOff="@string/blank"
+            android:textOn="@string/Active" />
+
+        <ToggleButton
+            android:id="@+id/BtnMagenta"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".25"
+            android:background="@color/Magenta"
+            android:textOff="@string/blank"
+            android:textOn="@string/Active" />
+
+        <ToggleButton
+            android:id="@+id/BtnCyan"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".25"
+            android:background="@color/Cyan"
+            android:textOff="@string/blank"
+            android:textOn="@string/Active" />
+
+        <Button
+            android:id="@+id/BtnOff"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight=".25"
+            android:background="@color/White"
+            android:text="@string/Off" />
+    </LinearLayout>
+
+</LinearLayout>

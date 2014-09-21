@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/Color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Del_Btn"
+        android:layout_toLeftOf="@+id/Speed"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@color/Blue" />
+
+    <TextView
+        android:id="@+id/Speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Del_Btn"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/SpeedLabel"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    <TextView
+        android:id="@+id/SpeedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Del_Btn"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/Plus_Btn"
+        android:text="@string/speedLabel"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/Plus_Btn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/Minus_Btn"
+        android:text="@string/Plus" />
+    
+    <Button
+        android:id="@+id/Minus_Btn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/Del_Btn"
+        android:text="@string/Minus" />
+    
+    <Button
+        android:id="@+id/Del_Btn"
+        style="?android:attr/buttonStyleSmall"
+        android:text= "@string/Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    
+
+    
+
+
+  
+</RelativeLayout>
